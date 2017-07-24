@@ -5825,4 +5825,23 @@ button.close {
 .carousel-control.left, .carousel-control.right {
   background-image: none; }
 
+/**SECCION DOS**/
+.second-section {
+  background-color: #E9E0B7;
+  border-top: 5px solid #2F1F1F;
+  text-align: center; }
+  .second-section div div div img {
+    border: 5px solid #D9BF84;
+    position: relative;
+    top: -50px; }
+  .second-section div div div h2 {
+    margin: 0 0 10px; }
+  .second-section div div div li {
+    margin: 40px 0 40px;
+    list-style: none; }
+    .second-section div div div li a {
+      background-color: #D9BF84;
+      color: black;
+      text-decoration: none; }
+
 /*# sourceMappingURL=main.css.map */
