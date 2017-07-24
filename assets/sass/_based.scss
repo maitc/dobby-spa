@@ -92,3 +92,43 @@
 		}
 	}
 }
+/**SECCION CUATRO**/
+.fourth-section{
+	background-color: $color-cuarta-seccion;
+	div{
+		div{
+			div{
+				h2{
+					text-align: right;
+					color: $color-tipografia;
+					margin: 45px 0 25px;
+				}
+				div{
+					div{
+						img{
+							width: 100%;
+						}
+					}
+					div{
+						p{
+							color: $color-tipografia;
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}
+.seccion-tres-caja .seccion-tres-left{
+	text-align: left;
+}
+.seccion-tres-caja .seccion-tres-right{
+	text-align: right;
+}
+.p-seccion-tres, .p-seccion-color{
+	color: $color-tipografia;
+}
+.p-seccion-tres{
+	text-align: right;
+}
