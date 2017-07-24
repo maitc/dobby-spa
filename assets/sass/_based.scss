@@ -27,3 +27,33 @@
 .carousel-control.left, .carousel-control.right{
 	background-image: none; 
 }
+
+/**SECCION DOS**/
+.second-section{
+	background-color: $color-segunda-seccion;
+	border-top: 5px solid $color-nav;
+	text-align: center;
+	div{
+		div{
+			div{
+				img{
+					border: 5px solid $color-tipografia;
+					position: relative;
+    				top: -50px;
+				}
+				h2{
+					margin: 0 0 10px;
+				}
+				li{
+					margin: 40px 0 40px;
+					list-style: none;
+					a{
+						background-color: $color-tipografia;
+						color: black;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
