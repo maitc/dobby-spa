@@ -1,0 +1,29 @@
+*{
+	font-family: 'Zilla Slab', serif;
+
+}
+/**SECCION UNO**/
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+	> li {
+	  float: none;
+	  display: inline-block;
+	}
+}
+.navbar-default .navbar-nav > li > a{
+	color: $color-segunda-seccion;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: $color-tipografia;
+}
+.navbar{
+	background-color: $color-nav;
+	margin-bottom: 0px;
+}
+.carousel-indicators .active{
+	background-color: $color-tipografia;
+}
+.carousel-control.left, .carousel-control.right{
+	background-image: none; 
+}
