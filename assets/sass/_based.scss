@@ -95,6 +95,7 @@
 /**SECCION CUATRO**/
 .fourth-section{
 	background-color: $color-cuarta-seccion;
+	border-top: 5px solid $color-tipografia;
 	div{
 		div{
 			div{
@@ -128,7 +129,41 @@
 }
 .p-seccion-tres, .p-seccion-color{
 	color: $color-tipografia;
+	margin: 0 0 45px;
 }
 .p-seccion-tres{
 	text-align: right;
+}
+
+/**SECCION CINCO**/
+footer{
+	background-color: $color-nav;
+	border-top: 5px solid white;
+	div{
+		div{
+			div{
+				h3{
+					color: $color-tipografia;
+				}
+				img{
+					border: 5px solid $color-rss-footer;
+					background-color: $color-tipografia;
+					margin: 60px 0 0;
+				}
+				p{
+					color: $color-tipografia;
+				}
+			}
+		}
+	}
+}
+.comillas{
+	border: none;
+	margin: 0;
+}
+.correo-footer span{
+	color: $color-rss-footer;
+}
+.hr-footer{
+	border-top: 1px solid $color-segunda-seccion;
 }
